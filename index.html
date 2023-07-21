@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="divport" content="width=device-width, initial-scale=1.0">
-    <title>观影神器</title>
+    <title>m3u8</title>
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/hls.js/8.0.0-beta.3/hls.min.js"></script>
     <style>
@@ -12,47 +12,67 @@
             margin: 0;
             padding: 0;
             border: none;
-            overflow: hidden;
-        }
-
-        body {
-            background-color: #DCDCDC;
         }
 
         .input-div {
             display: none;
         }
 
-        .video-div {
-            width: 98%;
-            background-color: white;
-            padding: 1%;
-            border-radius: 10px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
         }
 
-        .video-div video {
+        .video-div {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        video {
             width: 100%;
-            border-radius: 10px;
         }
 
         .input-title {
-            width: 100%;
-            padding: 1%;
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        #myInput {
+            flex-grow: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .input-div {
             margin-top: 20px;
         }
 
-        .input-title input {
-            width: 90%;
-            height: 60px;
-            border-radius: 10px;
-            padding-left: 1%;
+        #inputtitle {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
 
-        .input-title button {
-            width: 8%;
-            height: 60px;
-            background-color: #ffb8c6;
-            border-radius: 10px;
+        #buttontitle {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
