@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宠妃凰图</title>
+</head>
+
+<body>
+    <div class="container">
+        <iframe name="mainFrame" frameborder="0" border="0" marginwidth="0" marginheight="0" allowfullscreen="true"
+            scrolling="no" onload="this.height=this.contentWindow.document.documentElement.scrollHeight"
+            src="https://ts1.cn.mm.bing.net/th/id/R-C.987f582c510be58755c4933cda68d525?rik=C0D21hJDYvXosw&riu=http%3a%2f%2fimg.pconline.com.cn%2fimages%2fupload%2fupc%2ftx%2fwallpaper%2f1305%2f16%2fc4%2f20990657_1368686545122.jpg&ehk=netN2qzcCVS4ALUQfDOwxAwFcy41oxC%2b0xTFvOYy5ds%3d&risl=&pid=ImgRaw&r=0"
+            frameborder="0" allowfullscreen></iframe>
+        <div class="left">
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/f00472zkfbn.html">第1集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/q004749lyy7.html">第2集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/r0047v9oahs.html">第3集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/r0047f61v0b.html">第4集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/v00477q9rbg.html">第5集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/t0047561brw.html">第6集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/t0047spa928.html">第7集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/y0047zpleac.html">第8集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/l0047gdlksp.html">第9集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/w00478prv9o.html">第10集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/v00476i2xr0.html">第11集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/j0047mr99b8.html">第12集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/q0047in4p3s.html">第13集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/j0047nkhs8p.html">第14集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/j0047kh47s6.html">第15集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/k0047bu28d3.html">第16集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/u0047spaizc.html">第17集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/b0047qc5mkm.html">第18集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/u0047919flu.html">第19集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/o00477j2654.html">第20集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/k0047wkrimr.html">第21集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/q0047larp1q.html">第22集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/y0047p2x5hm.html">第23集</button>
+
+            <button class="btn" data-url="https://v.qq.com/x/cover/mzc002006kuwvxx/s00479tnbiz.html">第24集</button>
+
+            
+        </div>
+    </div>
+</body>
+<script>
+    const btns = document.querySelectorAll(".btn");
+    const iframe = document.querySelector("iframe");
+
+    btns.forEach(btn => {
+        btn.addEventListener("click", () => {
+            iframe.src = "https://jx.jsonplayer.com/player/?url=" + btn.dataset.url;
+        });
+    });
+</script>
+
+</html>
